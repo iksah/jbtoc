@@ -6,26 +6,6 @@ import { Page } from "../Page/Page";
 import LoadingPlaceholder from "./loading-placeholder.svg";
 import "./TableOfContents.scss";
 
-// TODO:
-// [1] Use forward ref and useImperativeHandle to expose api.
-// [2] Implement node selection:
-// To open node by id add new context (maybe it is time to introduce redux here?)
-// with ids from root to desired element. If it is presented, every page should 
-// determine expanded/collapsed state by this context.
-// Add and expose method to set activeurl and fill default route.
-// [3] Add search with debouncing.
-// Search via BFS (each top level node => their children => etc.)
-// [4] Add transitions
-// Use http://reactcommunity.org/react-transition-group/
-// Think how properly implement transition of anchors and pages lists at the same time
-// and in case when anchors rendered and pages are not.
-// [5] Markup lists and listitems as tree and tree-items, implement keyboard nav. Refs:
-// https://www.w3.org/TR/wai-aria-practices/#TreeView
-// https://www.w3.org/TR/wai-aria-practices/exsmples/treeview/treeview-2/treeview-2a.html
-// [6] Implement items highlight on scroll
-// Subscribe to scroll event and check for visible anchors on page.s
-// [7] Add storybook or proper demo
-
 export const TableOfContents = (
   {
     contentsUrl,
