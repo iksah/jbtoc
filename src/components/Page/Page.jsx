@@ -39,6 +39,7 @@ export const Page = ({ id }) => {
     <div
       className={clsx(
         "page",
+        {"page--expanded": isExpanded},
         {"page--active": isActive},
       )}
       style={{
