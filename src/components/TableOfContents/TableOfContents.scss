@@ -1,0 +1,15 @@
+@import-normalize;
+
+.table-of-contents {
+    height: 100%;
+    width: 300px;
+    background-color: #fafafa;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+
+    .table-of-contents__loading-placeholder + .table-of-contents__loading-placeholder {
+        padding-top: 15px;
+    }
+}
