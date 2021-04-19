@@ -37,9 +37,10 @@ Search via BFS (each top level node => their children => etc.)
 Use http://reactcommunity.org/react-transition-group/
 Think how properly implement transition of anchors and pages lists at the same time
 and in case when anchors rendered and pages are not.
+Add transition for anchors on mount.
 - Markup lists and listitems as tree and tree-items, implement keyboard nav. Refs:
 https://www.w3.org/TR/wai-aria-practices/#TreeView
 https://www.w3.org/TR/wai-aria-practices/exsmples/treeview/treeview-2/treeview-2a.html
 - Implement items highlight on scroll
-Subscribe to scroll event and check for visible anchors on page.s
+Subscribe to scroll event and check for visible anchors on page.
 - Add storybook or proper demo
