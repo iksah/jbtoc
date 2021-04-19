@@ -24,6 +24,7 @@ import "./TableOfContents.scss";
 // https://www.w3.org/TR/wai-aria-practices/exsmples/treeview/treeview-2/treeview-2a.html
 // [6] Implement items highlight on scroll
 // Subscribe to scroll event and check for visible anchors on page.s
+// [7] Add storybook or proper demo
 
 export const TableOfContents = (
   {
