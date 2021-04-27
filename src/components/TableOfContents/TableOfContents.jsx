@@ -72,7 +72,7 @@ export const TableOfContents = (
 
               <ul
                 aria-label="Table of contents"
-                className="table-of-contents">
+                className="table-of-contents__content">
                 {topLevelIds.map(id => (
                   <li
                     key={id}

@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         TOC Demo
       </header>
-      <main>
+      <main className="App-main">
         <TableOfContents
           contentsUrl={'/toc.json'}
         ></TableOfContents>

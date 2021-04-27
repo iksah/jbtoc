@@ -1,3 +1,18 @@
-main {
+.App {
     height: 100vh;
+
+    display: grid;
+    grid-template: 
+        [row1-start] "main header" auto [row1-end]
+        [row2-start] "main sidebar" minmax(0, 1fr) [row2-end]
+        / auto minmax(0, 1fr);
+}
+
+.App-header {
+    grid-area: header;
+}
+
+.App-main {
+    grid-area: main;
+    max-height: 100%;
 }
